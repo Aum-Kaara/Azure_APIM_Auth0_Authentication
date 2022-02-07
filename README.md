@@ -18,6 +18,10 @@ https://conferenceapi.azurewebsites.net/?format=json
 
 ![image](https://user-images.githubusercontent.com/6815990/152799017-bdfde8df-0f0e-4e7b-9362-c9bbeb7ca256.png)
 
+### Configure Your OAuth 2.0 Authorization Server
+
+![image](https://user-images.githubusercontent.com/6815990/152799452-45889649-1bd6-47d2-92b3-5dcf2519e264.png)
+
 ### Azure Policy to Validate JWT Token for Auth0
 ```
 <validate-jwt header-name="Authorization" failed-validation-httpcode="401" failed-validation-error-message="Unauthorized" require-expiration-time="true" require-scheme="Bearer" require-signed-tokens="true">
