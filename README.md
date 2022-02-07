@@ -35,6 +35,10 @@ copy Authorization code grant flow from Azure portal
 
 ![image](https://user-images.githubusercontent.com/6815990/152838717-25d51c64-0703-4a30-ba01-e3f17671280f.png)
 
+### Configure authorization code and client credentials at application
+
+![image](https://user-images.githubusercontent.com/6815990/152840157-2ae3e278-348c-40b6-951e-0ce86a53180c.png)
+
 
 ### Azure Policy to Validate JWT Token for Auth0
 ```
@@ -42,3 +46,9 @@ copy Authorization code grant flow from Azure portal
             <openid-config url="https://dev-oi0r2rdz.us.auth0.com/.well-known/openid-configuration" />
 </validate-jwt>
 ```
+
+# Testing
+
+### Postman to fetch Token
+
+![image](https://user-images.githubusercontent.com/6815990/152840926-4f24d796-1b69-4cf6-a45e-22fcb41fa650.png)
