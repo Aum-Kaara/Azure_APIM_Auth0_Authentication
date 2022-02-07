@@ -39,6 +39,10 @@ copy Authorization code grant flow from Azure portal
 
 ![image](https://user-images.githubusercontent.com/6815990/152840157-2ae3e278-348c-40b6-951e-0ce86a53180c.png)
 
+### Configure conference api to use Auth server 
+
+![image](https://user-images.githubusercontent.com/6815990/152842729-475ea3fc-f0a1-43d8-ae51-726e6551d18b.png)
+
 
 ### Azure Policy to Validate JWT Token for Auth0
 ```
